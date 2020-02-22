@@ -1,4 +1,4 @@
-class SortingRobot:
+yujclass SortingRobot:
     def __init__(self, l):
         """
         SortingRobot takes a list and sorts it.
@@ -91,6 +91,11 @@ class SortingRobot:
         Returns True if the robot's light is on and False otherwise.
         """
         return self._light == "ON"
+
+        # self._list = l          # The list the robot is tasked with sorting
+        # self._item = None       # The item the robot is holding
+        # self._position = 0      # The list position the robot is at
+        # self._light = "OFF"     # The state of the robot's light
 
     def sort(self):
         """
